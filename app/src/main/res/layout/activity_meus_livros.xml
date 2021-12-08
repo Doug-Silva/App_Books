@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MeusLivrosActivity">
+
+    <Button
+        android:id="@+id/buttonAdicionar"
+        android:layout_width="164dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#018786"
+        android:fontFamily="@font/bangers"
+        android:onClick="cadastrarNovoLivro"
+        android:text="@string/botaoAdicionar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775" />
+
+    <Button
+        android:id="@+id/buttonListar"
+        android:layout_width="164dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#018786"
+        android:fontFamily="@font/bangers"
+        android:onClick="listarLivros"
+        android:text="@string/botaoListar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775" />
+
+    <Button
+        android:id="@+id/buttonMais"
+        android:layout_width="164dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#B00020"
+        android:fontFamily="@font/bangers"
+        android:onClick="AbreMeusLivrosActivity2"
+        android:text="@string/botaoMais"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <EditText
+        android:id="@+id/editTextPaginas"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/paginas"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <EditText
+        android:id="@+id/editTextGenero"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/genero"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/titulo4"
+        android:layout_width="188dp"
+        android:layout_height="28dp"
+        android:text="@string/textoInicio4"
+        android:textColor="@color/backgroundColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <EditText
+        android:id="@+id/editTextEditora"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/editora"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <EditText
+        android:id="@+id/editTextAutor"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/autor"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <Spinner
+        android:id="@+id/spinnerStatus"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

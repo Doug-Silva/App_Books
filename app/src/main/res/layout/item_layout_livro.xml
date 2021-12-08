@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DC0376DA"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Nome"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewAutor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Autor"
+        android:textColor="#101010"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewEditora"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="Editora"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewPaginas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Paginas"
+        android:textColor="#101010"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewGenero"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Genero"
+        android:textColor="#101010"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Status"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp" />
+
+</LinearLayout>

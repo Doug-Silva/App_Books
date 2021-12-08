@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Todas cores para o dark mode
+    <color name="textColor">#FFFFFF</color>
+    <color name="backgroundColor">#000000</color>
+</resources>

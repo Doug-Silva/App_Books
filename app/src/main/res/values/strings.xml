@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Cadastro De Livros</string>
+    <string name="textoInicio">App Books</string>
+    <string name="textoInicio2">Bem Vindo, Cadastre Sua Conta:</string>
+    <string name="textoInicio3">Deletar Conta Cadastrada:</string>
+    <string name="textoInicio4">Status da sua leitura:</string>
+    <string name="textoInicio5">Atualizar status da sua leitura:</string>
+    <string name="textoInicio6">Deletar livro da lista:</string>
+    <string name="textoInicio7">Escolha uma nova opção abaixo:</string>
+    <string name="textoInicio8">Mudar Tema Do Aplicativo:</string>
+    <string name="loginUser">Login</string>
+    <string name="senhaUser">Senha</string>
+    <string name="botaoEntrar">Entrar</string>
+    <string name="botaoCriarConta">Criar Nova Conta</string>
+    <string name="Opcoes">Configurações</string>
+    <string name="newLoginUser">Novo Login</string>
+    <string name="newSenhaUser">Nova Senha</string>
+    <string name="botaoNovoUsuario">Cadastrar</string>
+    <string name="botaoListarUsuarios">Listar Contas</string>
+    <string name="deletarUsuario">Digite seu Login aqui:</string>
+    <string name="deletarPeloLogin">Deletar</string>
+    <string name="nome">Nome do livro</string>
+    <string name="autor">Autor do livro</string>
+    <string name="paginas">Páginas</string>
+    <string name="editora">Editora</string>
+    <string name="genero">Gênero literário</string>
+    <string name="botaoAdicionar">Adicionar Livro</string>
+    <string name="botaoListar">Listar Livros</string>
+    <string name="botaoMais">Mais Opções</string>
+    <string name="insiraNomeLivro">Digite o nome do livro aqui:</string>
+    <string name="botaoAtualiza">Atualizar Status</string>
+    <string name="insiraNomeDeletar">Digite o nome do livro aqui:</string>
+    <string name="botaoDelete">Deletar Livro</string>
+</resources>

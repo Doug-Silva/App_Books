@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="411dp"
+        tools:layout_editor_absoluteY="730dp"></LinearLayout>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="285dp"
+        android:layout_height="78dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/textoInicio"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/loginUser"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/senhaUser"
+        android:inputType="textPassword"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <Button
+        android:id="@+id/buttonEntrar"
+        android:layout_width="241dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#018786"
+        android:fontFamily="@font/bangers"
+        android:onClick="AbreMeusLivrosActivity"
+        android:text="@string/botaoEntrar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/buttonNovaConta"
+        android:layout_width="241dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#018786"
+        android:fontFamily="@font/bangers"
+        android:onClick="AbreNovaContaActivity"
+        android:text="@string/botaoCriarConta"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
+
+    <Button
+        android:id="@+id/buttonConfig"
+        android:layout_width="241dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#B00020"
+        android:fontFamily="@font/bangers"
+        android:onClick="AbreConfiguracoesActivity"
+        android:text="@string/Opcoes"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:srcCompat="@drawable/google" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MeusLivrosActivity2">
+
+    <TextView
+        android:id="@+id/titulo5"
+        android:layout_width="323dp"
+        android:layout_height="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textoInicio5"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/editTextIDParaAtualizar"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/insiraNomeLivro"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/titulo7"
+        android:layout_width="323dp"
+        android:layout_height="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textoInicio7"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <Spinner
+        android:id="@+id/spinnerAtualizaStatus"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Button
+        android:id="@+id/buttonAtualizarStatus"
+        android:layout_width="164dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#018786"
+        android:fontFamily="@font/bangers"
+        android:onClick="atualizarLivros"
+        android:text="@string/botaoAtualiza"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <EditText
+        android:id="@+id/editTextDeletar"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#B00020"
+        android:ems="10"
+        android:hint="@string/insiraNomeDeletar"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768" />
+
+    <Button
+        android:id="@+id/buttonDelete2"
+        android:layout_width="164dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#B00020"
+        android:fontFamily="@font/bangers"
+        android:onClick="deletarLivros"
+        android:text="@string/botaoDelete"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+        android:id="@+id/titulo6"
+        android:layout_width="323dp"
+        android:layout_height="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textoInicio6"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

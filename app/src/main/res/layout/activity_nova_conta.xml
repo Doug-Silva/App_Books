@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".NovaContaActivity">
+
+    <EditText
+        android:id="@+id/editTextDeletarUsuario"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#B00020"
+        android:ems="10"
+        android:hint="@string/deletarUsuario"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <Button
+        android:id="@+id/buttonDeletarUsuario"
+        android:layout_width="164dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#B00020"
+        android:fontFamily="@font/bangers"
+        android:onClick="deletarUsuarios"
+        android:text="@string/deletarPeloLogin"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="319dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textoInicio2"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <EditText
+        android:id="@+id/editTextNovoLogin"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/newLoginUser"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="164dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#018786"
+        android:fontFamily="@font/bangers"
+        android:onClick="cadastrarNovoUsuario"
+        android:text="@string/botaoNovoUsuario"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <Button
+        android:id="@+id/buttonListarUsuarios"
+        android:layout_width="164dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#018786"
+        android:fontFamily="@font/bangers"
+        android:onClick="listarUsuarios"
+        android:text="@string/botaoListarUsuarios"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <EditText
+        android:id="@+id/editTextNovaSenha"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:background="@drawable/campos_textos_background"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="@string/newSenhaUser"
+        android:inputType="textPassword"
+        android:textColorHint="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="319dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textoInicio3"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="405dp"
+        tools:layout_editor_absoluteY="895dp"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
