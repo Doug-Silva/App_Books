@@ -1,7 +1,7 @@
 <h1 align="center">
 <span id='voltar-topo'></span>
 <br>
-  <img src="App-Books.jpg" alt="Logo do projeto" width="120">
+  <img src="logo-projeto.gif" alt="Logo do projeto" width="120">
 <br>
 <br>
 App Books
@@ -19,7 +19,7 @@ App Books
 
 [//]: # (Adicionar os gifs/imagens aqui:)
 <div align="center">
-  <img src="imagem-appbooks-github.gif" alt="imagem-projeto" height="425">
+  <img src="apresentação-projeto.gif" alt="imagem-projeto" height="425">
 </div>
 
 <hr />
