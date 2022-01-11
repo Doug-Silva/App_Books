@@ -1,7 +1,7 @@
 <h1 align="center">
 <span id='voltar-topo'></span>
 <br>
-  <img src="logotipo-projeto.jpg" alt="Logo do projeto" height="100" width="260">
+  <img src="logo-projeto.jpg" alt="Logo do projeto" height="100" width="260">
 <br>
 <br>
 App Books
@@ -19,7 +19,7 @@ App Books
 
 [//]: # (Adicionar os gifs/imagens aqui:)
 <div align="center">
-  <img src="apresentação-projeto.gif" alt="imagem-projeto" height="425">
+  <img src="tela-inicio-projeto.gif" alt="imagem-projeto" height="425">
 </div>
 
 <hr />
@@ -28,4 +28,4 @@ App Books
 
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-<a href='#topo'>⬆ Voltar ao topo</a><br>
+<a href='#voltar-topo'>⬆ Voltar ao topo</a><br>
