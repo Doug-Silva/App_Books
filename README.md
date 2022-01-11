@@ -1,7 +1,7 @@
 <h1 align="center">
 <span id='voltar-topo'></span>
 <br>
-  <img src="logo-projeto.gif" alt="Logo do projeto" width="120">
+  <img src="logo-projeto.jpg" alt="Logo do projeto" width="120">
 <br>
 <br>
 App Books
