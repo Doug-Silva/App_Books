@@ -1,4 +1,5 @@
 <h1 align="center">
+<span id='voltar-topo'></span>
 <br>
   <img src="App-Books.jpg" alt="Logo do projeto" width="120">
 <br>
@@ -27,4 +28,4 @@ App Books
 
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-[⬆ Voltar ao topo](App-Books)<br>
+<a href='#topo'>⬆ Voltar ao topo</a><br>
