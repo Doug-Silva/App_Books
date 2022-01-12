@@ -7,8 +7,8 @@
 App Books
 </h1>
 
-<p align="center">Aplicativo android, foi desenvolvido na linguagem JAVA, para cadastrar, 
-  atualizar e remover lista de livros,<br>Podendo ser atualizado o status da leitura do usuário
+<p align="center">Aplicativo android, foi desenvolvido na linguagem JAVA, para cadastrar, atualizar e remover lista de livros, 
+  podendo ser atualizado o status de leitura do usuário.
 </p>
 
 <p align="center">
