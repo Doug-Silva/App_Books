@@ -12,8 +12,8 @@ App Books
 </p>
 
 <p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  <a href="https://github.com/Dougg-ssilva/App_Books/blob/main/LICENSE">
+    <img src="https://img.shields.io/npm/l/react" alt="License MIT">
   </a>
 </p>
 
