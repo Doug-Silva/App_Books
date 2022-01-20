@@ -17,9 +17,11 @@ App Books
   </a>
 </p>
 
-[//]: # (Adicionar os gifs/imagens aqui:)
+[//]: # (Adicionar os gifs aqui:)
 <div style="width:30%">
-  <img src="tela-inicio-projeto.gif" style="width:100%" alt="imagem-projeto">
+  <a href="https://github.com/Doug-Silva">
+    <img src="tela-inicio-projeto.gif" style="width:100%" alt="imagem-projeto">
+  </a>   
 </div>
 
 <hr />
