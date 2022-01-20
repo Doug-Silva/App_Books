@@ -1,7 +1,7 @@
 <h1 align="center">
 <span id='voltar-topo'></span>
 <br>
-  <a href="">
+  <a href='#voltar-topo'>
     <img src="logo-projeto.jpg" alt="Logo do projeto" height="100" width="260">
   </a>
 <br>
@@ -21,7 +21,7 @@ App Books
 
 [//]: # (Adicionar os gifs aqui:)
 <div style="width:30%">
-  <a href="https://github.com/Doug-Silva/App_Books">
+  <a href='#voltar-topo'>
     <img src="tela-inicio-projeto.gif" style="width:100%" alt="imagem-projeto">
   </a>   
 </div>
