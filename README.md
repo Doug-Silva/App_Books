@@ -19,7 +19,7 @@ App Books
 
 [//]: # (Adicionar os gifs aqui:)
 <div style="width:30%">
-  <a href="https://github.com/Doug-Silva">
+  <a href="https://github.com/Doug-Silva/App_Books/README.md">
     <img src="tela-inicio-projeto.gif" style="width:100%" alt="imagem-projeto">
   </a>   
 </div>
