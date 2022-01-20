@@ -1,7 +1,9 @@
 <h1 align="center">
 <span id='voltar-topo'></span>
 <br>
-  <img src="logo-projeto.jpg" alt="Logo do projeto" height="100" width="260">
+  <a href="https://github.com/Doug-Silva/App_Books">
+    <img src="logo-projeto.jpg" alt="Logo do projeto" height="100" width="260">
+  </a>
 <br>
 <br>
 App Books
@@ -19,7 +21,7 @@ App Books
 
 [//]: # (Adicionar os gifs aqui:)
 <div style="width:30%">
-  <a href="https://github.com/Doug-Silva/App_Books/README.md">
+  <a href="https://github.com/Doug-Silva/App_Books">
     <img src="tela-inicio-projeto.gif" style="width:100%" alt="imagem-projeto">
   </a>   
 </div>
