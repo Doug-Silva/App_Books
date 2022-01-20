@@ -1,7 +1,7 @@
 <h1 align="center">
 <span id='voltar-topo'></span>
 <br>
-  <a href="https://github.com/Doug-Silva/App_Books">
+  <a href="">
     <img src="logo-projeto.jpg" alt="Logo do projeto" height="100" width="260">
   </a>
 <br>
