@@ -1,35 +1,27 @@
-<h1 align="center">
 <span id='voltar-topo'></span>
-<br>
-  <a href="Doug-Silva/App_Books">
-    <img src="logo-projeto.jpg" alt="Logo do projeto" height="100" width="260">
-  </a>
-<br>
-<br>
-App Books
-</h1>
+<div align="center">  
+  <!--Adicionar logotipo do projeto aqui-->
+  <div>
+    <a href='#voltar-topo'><img src="logo-projeto.jpg" alt="Logotipo do projeto" height="140" width="260"></a>
+  </div><br>
 
-<p align="center">Aplicativo android, foi desenvolvido na linguagem JAVA, para cadastrar, atualizar e remover lista de livros, 
-  podendo ser atualizado o status de leitura do usuário.
-</p>
+  <h1>App Books</h1>
+  <p>Aplicativo android, foi desenvolvido na linguagem JAVA, para cadastrar, atualizar e remover lista de livros, podendo ser atualizado o status de leitura do usuário.</p>
 
-<p align="center">
-  <a href="https://github.com/Doug-Silva/App_Books/blob/main/LICENSE">
-    <img src="https://img.shields.io/npm/l/react" alt="License MIT">
-  </a>
-</p>
+  <div>
+    <a href="https://github.com/Doug-Silva/App_Books/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="License MIT"></a>
+  </div><br>
 
-[//]: # (Adicionar os gifs aqui:)
-<div style="width:30%">
-  <a href="Doug-Silva/App_Books">
-    <img src="tela-inicio-projeto.gif" style="width:100%" alt="imagem-projeto">
-  </a>   
+  <!--Adicionar imagem/gif do projeto aqui-->
+  <div style="width:30%">
+    <a href='#voltar-topo'><img src="tela-inicio-projeto.gif" style="width:100%" alt="Imagem do projeto"></a>   
+  </div><hr>
 </div>
 
-<hr />
+  ## 🚀 Iniciar
+  Para iniciar, basta clonar o repositório e abrir o projeto na IDE Android Studio, executando o App no emulador ou no seu smartphone.
+  
+  ## 🔨 Seja um dos contribuidores<br>
+  Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-## 🔨 Seja um dos contribuidores<br>
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-<a href='#voltar-topo'>⬆ Voltar ao topo</a><br>
+  <a href='#voltar-topo'>⬆ Voltar ao topo</a><br>
