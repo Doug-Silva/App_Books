@@ -6,7 +6,7 @@
   </div><br>
 
   <h1>App Books</h1>
-  <p>Aplicativo android, foi desenvolvido na linguagem JAVA, para cadastrar, atualizar e remover lista de livros, podendo ser atualizado o status de leitura do usuário.</p>
+  <p>Aplicativo android, foi desenvolvido na linguagem JAVA, para cadastrar, atualizar e remover lista de livros, podendo ser atualizado o status de leitura do usuário</p>
 
   <div>
     <a href="https://github.com/Doug-Silva/app-books/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="License MIT"></a>
